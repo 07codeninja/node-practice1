@@ -14,7 +14,6 @@ app.post('/hellosumsingh', (req, res) => {
     hellosum = Number(hello.age1) + Number(hello.age2);
     console.log("sum added:",hellosum)
     return res.status(200).send(String(hellosum));
-    
 });
 
 app.post("/addition",(req,res) => {
